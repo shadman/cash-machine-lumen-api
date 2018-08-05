@@ -57,32 +57,45 @@ Note: You may also regenerate by using below command:
 
 ## Main Files and Directory Structure:
 
-careship/
 
->-------- apidoc/
->	------- index.html
->
->-------- app/
->	--- Http/
->	----------- Controllers/
->	----------------------- WithdrawController.php
->	--- Facade/
->	----------- WithdrawFacade.php
->	--- Helpers/
->	----------- NoteHelpers.php
->	----------- FormattingHelpers.php
->
->--------- config/
+-------- apidoc/
+
+	------- index.html
+
+-------- app/
+
+	--- Http/
+
+	----------- Controllers/
+
+	----------------------- WithdrawController.php
+
+	--- Facade/
+
+	----------- WithdrawFacade.php
+
+	--- Helpers/
+
+	----------- NoteHelpers.php
+
+	----------- FormattingHelpers.php
+
+--------- config/
+
 	-------- app.php
 
 --------- routes/
+
 	--------- web.php
 
 --------- tests/
+
 	--------- WithdrawNotesTest.php
 
 --------- .env
 
 --------- README.md
+
+
 
 Cheers !
