@@ -15,7 +15,7 @@
 
 
 ## Sample Request:
-- URL: http://localhost/careship/api/withdraw
+- URL: http://localhost/project/api/withdraw
 - METHOD: POST
 - JSON REQUEST: {"amount":"230"}
 
@@ -59,20 +59,20 @@ Note: You may also regenerate by using below command:
 
 careship/
 
--------- apidoc/
-	------- index.html
-
--------- app/
-	--- Http/
-	----------- Controllers/
-	----------------------- WithdrawController.php
-	--- Facade/
-	----------- WithdrawFacade.php
-	--- Helpers/
-	----------- NoteHelpers.php
-	----------- FormattingHelpers.php
-
---------- config/
+>-------- apidoc/
+>	------- index.html
+>
+>-------- app/
+>	--- Http/
+>	----------- Controllers/
+>	----------------------- WithdrawController.php
+>	--- Facade/
+>	----------- WithdrawFacade.php
+>	--- Helpers/
+>	----------- NoteHelpers.php
+>	----------- FormattingHelpers.php
+>
+>--------- config/
 	-------- app.php
 
 --------- routes/
